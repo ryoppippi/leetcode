@@ -1,0 +1,18 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jetify-com/devbox/0.10.6/.schema/devbox.schema.json",
+  "packages": [
+    "cargo@latest",
+    "rust-analyzer@latest",
+    "cargo-watch@latest"
+  ],
+  "shell": {
+    "init_hook": [],
+    "scripts": {
+      "leet": "nix run github:clearloop/leetcode-cli",
+      "dev": "cargo watch -x run",
+      "build": "cargo build",
+      "release": "cargo build --release",
+      "test": "cargo test"
+    }
+  }
+}
