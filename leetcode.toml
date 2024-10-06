@@ -1,0 +1,13 @@
+[code]
+editor = 'nvim'
+lang = 'rust'
+
+[cookies]
+csrf = ''
+session = ''
+
+[storage]
+cache = 'Problems'
+code = 'code'
+root = '~/ghq/github.com/ryoppippi/leetcode'
+scripts = 'scripts'

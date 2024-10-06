@@ -6,7 +6,10 @@
     "cargo-watch@latest"
   ],
   "shell": {
-    "init_hook": [],
+    "init_hook": [
+      "mkdir -p ~/.leetcode",
+      "cp leetcode.toml ~/.leetcode/"
+    ],
     "scripts": {
       "leet": "nix run github:clearloop/leetcode-cli",
       "dev": "cargo watch -x run",
