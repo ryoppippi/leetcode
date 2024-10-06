@@ -9,3 +9,5 @@
 ## LICENSE
 
 MIT
+
+![Alt](https://repobeats.axiom.co/api/embed/bf2bde6d8c66870ce499d60a57e4b9c89dca72f3.svg "Repobeats analytics image")
