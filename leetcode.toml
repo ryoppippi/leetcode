@@ -1,6 +1,6 @@
 [code]
 editor = 'nvim'
-lang = 'rust'
+lang = 'typescript'
 
 [cookies]
 csrf = ''
